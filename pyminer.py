@@ -238,7 +238,7 @@ if __name__ == '__main__':
 		p = Process(target=miner_thread, args=(thr_id,))
 		p.start()
 		thr_list.append(p)
-		time.sleep(1)			# stagger threads
+		time.sleep(2)			# stagger threads
 
 	print settings['threads'], "mining threads started"
 
