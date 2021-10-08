@@ -1,6 +1,7 @@
-
+#
 # Copyright 2011 - 2022 Jeff Garzik and Rodney Thomas
-
+#
+# License information in the "COPYING" file.
 import time
 import json
 import pprint
